@@ -1,0 +1,36 @@
+form{
+    margin-top: 3%;
+    margin-right: 65%;
+    background-color: darkslategray;
+    width: 35%;
+    margin-left: 35%;
+}
+
+
+label,span{
+  margin-left: 5%;  
+   margin-top: 3%;
+  color: antiquewhite ;
+}
+
+input{
+    width: 50%;
+    margin-left: 5%;
+    align-items: center;
+}
+
+input.ng-valid.ng-touched{
+  border: 1px solid green;
+}
+
+input.ng-invalid.ng-touched{
+  border: 1px solid coral;
+}
+
+.error{
+  color: coral;
+}
+
+button{
+  margin-bottom: 5%;
+}
